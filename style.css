@@ -59,7 +59,7 @@ p {
 }
 
 .clearfix {
-    padding: 60px 0;
+    padding: 70px 0;
 }
 
 .clearfix::after {
@@ -91,10 +91,11 @@ p {
 }
 
 .hero-content h1 {
-    font-size: 55px;
+    font-size: 52px;
     color: #fff;
     margin: 14px 10px;
     font-weight: 700;
+    line-height: 1.3em;
 }
 
 .hero-content p {
@@ -127,7 +128,7 @@ p {
 /***************amount section***************/
 .title-wrapper {
     text-align: center;
-    padding: 25px 300px 33px;
+    padding: 0 300px 33px;
 }
 
 .title-wrapper h2 {
@@ -385,17 +386,14 @@ hr {
 
 .date {
     background: #FF5959;
-    /* padding: 15px; */
     width: 54px;
-
-
     height: 54px;
     text-align: center;
     border-radius: 4px;
     color: #fff;
     z-index: 2;
     font-size: 18px;
-    text-transform: capitalize;
+    text-transform: uppercase;
 
 }
 
@@ -455,7 +453,13 @@ hr {
     color: #121212;
     font-weight: 500;
     margin-right: 17px;
+    transition: all 0.55s ease;
 }
+
+.read-btn:hover {
+    color: #FF5959
+}
+
 
 .right-arrow {
     padding-left: 4px;
@@ -516,4 +520,61 @@ input:focus-visible {
     border: none;
     color: #fff;
     border-radius: 0 6px 6px 0;
+}
+
+/****************footer section*********/
+.footer {
+    background-color: #0B0D17;
+    padding: 45px 0 0
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 31px;
+    color: #FF5959;
+    font-family: lobster;
+    font-weight: 600;
+    margin-bottom: 21px;
+}
+
+.footer-content span {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 16px;
+
+}
+
+
+.footer-bottom {
+    padding: 34px 78px 45px;
+    border-top: 1px solid #444;
+    margin-top: 49px;
+}
+
+.copyright-text {
+    float: left;
+    overflow: hidden;
+    color: #999;
+    text-transform: capitalize;
+}
+
+.policy-text {
+    float: right;
+    overflow: hidden;
+
+}
+
+.policy-text a {
+    color: #999;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'poppins', sans-serif;
+}
+
+.policy {
+    margin-right: 21px;
 }
