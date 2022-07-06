@@ -510,13 +510,13 @@ input:focus-visible {
 }
 
 .subscribe-btn {
-
     position: absolute;
     top: 0;
     right: 0;
     background-color: #FF5959;
     font-size: 17px;
     padding: 13px 30px;
+    cursor: pointer;
     border: none;
     color: #fff;
     border-radius: 0 6px 6px 0;
