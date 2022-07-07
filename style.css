@@ -320,6 +320,10 @@ a.overlay-link:hover {
 }
 
 /*************our team section**************/
+.our-team {
+    background: #efefef24;
+}
+
 .team-box {
     box-shadow: 1px 5px 34px -3px #ddd;
     margin: 0 14px;
@@ -377,45 +381,11 @@ a.overlay-link:hover {
 }
 
 
-/**********contribute section************/
-.contribution-section {
-    background-color: #FAFAFA
-}
-
-.contribute-info h2 {
-    font-size: 39px;
-    font-weight: 600;
-    margin: 20px 0;
-
-}
-
-.mg-top {
-    margin-top: 12px;
-}
-
-.contribute-btn {
-    margin-top: 32px;
-}
-
-.contribute-info {
-    margin: 74px 0 0 23px;
-    padding: 0 35px;
-}
-
-.contribute-img {
-    margin-left: 58px;
-    border-radius: 6px;
-}
-
-.extra-space {
-    margin-top: 50px;
-}
-
-#equalize-space {
-    margin-left: 0;
-}
 
 /**********blog section********/
+.blog-section {
+    background: #FAFAFA;
+}
 
 .img-wrapper {
     position: relative;
@@ -541,7 +511,7 @@ a.overlay-link:hover {
 
 /***************update section***************/
 .update-section {
-    background-color: #FAFAFA;
+    background-color: #fff;
 }
 
 .subcribe-form-wrapper {
